@@ -1,6 +1,7 @@
 function guessNumberGame() {
 
-    const target = Math.floor(Math.random() * 10)
+    const target = Math.floor(Math.random()* 10 + 1)
+    
     let guess = null;
 
     while (guess !== target) {
